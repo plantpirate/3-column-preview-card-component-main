@@ -152,11 +152,9 @@ main {
     background-color: var(--very-dark-cyan);
     border-radius: 0 0 1rem 1rem;
 }
-
     .luxury a {
         color: var(--very-dark-cyan);
     }
-
     @media (min-width: 62.5rem) {
         .sedan {        
             border-radius: 1rem 0 0 1rem ;
@@ -169,26 +167,23 @@ main {
 
     
 /*button stylings*/
-button {
+.button {
+    text-align: center;
+    text-decoration: none;
     background-color: var(--very-light-gray);
     width: 65%;
     border: none;
     border-radius: 1.5em;
     padding: .75em 1em;
 }
-    button a {
-        text-decoration: none;
-    }
-    button:hover {
+    .button:hover {
         background-color: rgba(255, 255, 255, 0);
         border: solid #fff;
+        color: #fff;
         cursor: pointer;
     }
-    button:hover a {
-        color: #fff;
-    }
     @media (min-width: 62.5rem) {
-        button {        
+        .button {        
             margin-top: 3rem;
         }
     }
